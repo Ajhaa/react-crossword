@@ -586,6 +586,10 @@ const Crossword = React.forwardRef(
           focus();
         },
 
+        moveTo: (direction, number) => {
+          const info = data[direction][number];
+          moveTo(info.row, info.col, direction);
+        },
         /**
          * Resets the entire crossword; clearing all answers in the grid and
          * also any persisted data.
