@@ -3,7 +3,7 @@
   "version": "0.0.1",
   "private": true,
   "dependencies": {
-    "@jaredreisinger/react-crossword": "file:..",
+    "@ajhaa/react-crossword": "file:..",
     "immer": "file:../node_modules/immer",
     "prop-types": "file:../node_modules/prop-types",
     "react": "file:../node_modules/react",

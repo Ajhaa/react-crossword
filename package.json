@@ -1,7 +1,7 @@
 {
   "name": "@ajhaa/react-crossword",
   "homepage": "http://JaredReisinger.github.io/react-crossword",
-  "version": "2.2.2",
+  "version": "2.2.3",
   "description": "A fork of Jared Reisingers crossword package",
   "author": {
     "name": "Atte Haarni",

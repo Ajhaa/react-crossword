@@ -106,6 +106,7 @@ const Crossword = React.forwardRef(
       onLoadedCorrect,
       onCrosswordCorrect,
       onCellChange,
+      onWordChange,
       useStorage,
       theme,
     },
@@ -265,6 +266,10 @@ const Crossword = React.forwardRef(
           )
       );
     }, [clues]);
+
+    useEffect(() => {
+      onWordChange(currentNumber);
+    }, [currentNumber]);
 
     // Let the consumer know everything's correct (or not) if they've asked to
     // be informed.

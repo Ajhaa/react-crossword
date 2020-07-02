@@ -1,5 +1,5 @@
-import React, { useCallback, useRef, useState } from 'react';
-import Crossword from '@jaredreisinger/react-crossword';
+import React, { useCallback, useEffect, useRef, useState } from 'react';
+import Crossword from '@ajhaa/react-crossword';
 import styled from 'styled-components';
 
 const data = {
@@ -163,6 +163,7 @@ function App() {
           onCorrect={onCorrect}
           onLoadedCorrect={onLoadedCorrect}
           onCrosswordCorrect={onCrosswordCorrect}
+          onWordChange={n => console.log(n)}
           onCellChange={onCellChange}
         />
       </CrosswordWrapper>
