@@ -1,11 +1,11 @@
 {
-  "name": "@jaredreisinger/react-crossword",
+  "name": "@ajhaa/react-crossword",
   "homepage": "http://JaredReisinger.github.io/react-crossword",
-  "version": "2.2.1",
-  "description": "A flexible, responsive, and easy-to-use crossword component for React apps",
+  "version": "2.2.2",
+  "description": "A fork of Jared Reisingers crossword package",
   "author": {
-    "name": "JaredReisinger",
-    "email": "jaredreisinger@hotmail.com"
+    "name": "Atte Haarni",
+    "email": "atte.haarni@gmail.com"
   },
   "keywords": [
     "react",
@@ -16,7 +16,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/JaredReisinger/react-crossword"
+    "url": "https://github.com/Ajhaa/react-crossword"
   },
   "license": "MIT",
   "engines": {
@@ -45,12 +45,6 @@
   ],
   "publishConfig": {
     "access": "public"
-  },
-  "husky": {
-    "hooks": {
-      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS",
-      "pre-commit": "pretty-quick --staged && lint-staged"
-    }
   },
   "config": {
     "commitizen": {
